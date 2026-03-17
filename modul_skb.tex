@@ -1,0 +1,75 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Simple Article
+% Integrated article template with simple for make4ht
+% LaTeX Class
+% Version 1.0 (10/11/20)
+%
+% This class originates by:
+% Vel and  Nicolas Diaz
+%
+% Authors:
+% Muhammad Uliah Shafar
+%
+%
+% Free License:
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{simart} % Font size (can be 10pt, 11pt or 12pt)
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+% MAIN TITLE SECTION
+\title{
+\textbf{Lorem Ipsum Lorem Ipsum \\
+Lorem Ipsum Lorem Ipsum Lorem Ipsum} \\
+\textbf{{Lorem Ipsum Lorem Ipsum \\}}
+} % Title and subtitle
+%\date{\textbf{\DTMtoday}}
+\date{\textbf{\today}}
+\author{
+\begin{tabular}{@{}ll@{}}
+	Nama & : Muhammad Uliah Shafar\\
+	NIM & : 21020119420029\\
+\end{tabular}
+}
+
+%----------------------------------------------------------------------------------------
+% OTHER TITLE SECTION
+
+%\title{\textbf{Sistem Sarana dan Prasarana Jl. Pinggir Laut} \\ {\Large\itshape Infrastructure of Waterfront Parepare City}} % Title and subtitle
+
+%\author{\textbf{Uliah Shafar} \\ \textit{Universitas Diponegoro}} % Author and institution
+
+%\date{\today} % Date, use \date{} for no date
+
+%----------------------------------------------------------------------------------------
+
+
+% \AddToHook{cmd/section/before}{\clearpage} %start each section in new page
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	ESSAY BODY
+%----------------------------------------------------------------------------------------
+% adding pdf in altex
+% \includepdf[pages={1-2},pagecommand={\thispagestyle{plain}\fakesection{}}]{file.pdf}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+% Comment these out if they are already in sub
+\bibliographystyle{apalike}
+
+\bibliography{biblio.bib}
+
+
+
+\end{document}

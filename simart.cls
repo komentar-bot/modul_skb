@@ -365,6 +365,7 @@
 %       OTHERS
 %----------------------------------------------------------------------------------------
 
+\usepackage{amssymb} %simbol segitiga
 % Create checkmark symbol
 \def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;}
 
